@@ -1,0 +1,25 @@
+{
+  "name": "cipherstudio",
+  "version": "1.0.0",
+  "description": "CipherStudio - Browser-Based React IDE",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "react",
+    "ide",
+    "mern",
+    "mongodb",
+    "sandpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
