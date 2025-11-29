@@ -3,6 +3,7 @@
 **CipherStudio** is a full-stack MERN web application that provides an online React IDE, similar to CodeSandbox or NextLeap.js. Build, edit, and preview React applications directly in your browser with real-time code execution.
 
 Key Features & Highlights:
+
 • Implemented JWT-based secure authentication with protected routes and hashed credentials.
 
 • Built a complete file system (create, rename, delete, update) stored in MongoDB with hierarchical project structure.
