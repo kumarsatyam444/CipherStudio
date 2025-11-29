@@ -1,14 +1,22 @@
 # 🚀 CipherStudio - Browser-Based React IDE
 
 **CipherStudio** is a full-stack MERN web application that provides an online React IDE, similar to CodeSandbox or NextLeap.js. Build, edit, and preview React applications directly in your browser with real-time code execution.
+
 Key Features & Highlights:
 • Implemented JWT-based secure authentication with protected routes and hashed credentials.
+
 • Built a complete file system (create, rename, delete, update) stored in MongoDB with hierarchical project structure.
+
 • Integrated Sandpack + Monaco Editor to enable live React code editing and real-time output preview.
+
 • Designed a modern black-red interface using CSS-based gradients, glow effects, shimmer animations, pulse icons, and glassmorphism.
+
 • Added responsive Dashboard with animated header, gradient project cards, user avatar, and interactive empty states.
+
 • Developed full IDE interface with enhanced save actions, custom scrollbar, improved file explorer, and theme-aware styling.
+
 • Ensured fully responsive UI with smooth transitions, accessibility-focused contrast, and optimized animation performance.
+
 • Developed modular backend supporting project CRUD, file CRUD, authentication, and token management.
 
 Tech: ReactJs, NodeJs, ExpressJs, MongoDB, Sandpack, Monaco Editor, Axios, CSS Modules
